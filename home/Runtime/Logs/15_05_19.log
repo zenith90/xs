@@ -1,0 +1,2755 @@
+[ 2015-05-19T19:37:05+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005204s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004068s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.006293s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000492s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.005567s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000220s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000262s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.006063s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000232s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000243s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000155s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.001015s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000818s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000870s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030415s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000905s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000824s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000657s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003523s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000910s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2015-05-19T19:37:06+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:37:06+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:37:07+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:37:22+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.008536s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.007884s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.008468s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000577s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.009022s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000424s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.008933s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000463s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000455s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000285s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.001980s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001133s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024771s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000815s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000686s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000503s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002957s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000937s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2015-05-19T19:37:22+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:37:22+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:37:23+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:37:26+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:37:33+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.008599s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.007828s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005661s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000520s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.006914s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000218s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000315s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.006984s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000298s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000355s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000299s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.001963s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000900s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000982s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023175s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000666s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000489s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000322s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002078s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000539s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2015-05-19T19:37:33+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:37:33+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:37:34+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:37:36+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:37:51+08:00 ] 127.0.0.1 /book/kuilingyan/230
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001048s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.006781s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.005317s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004582s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000529s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "kuilingyan" OR `id`='kuilingyan' ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.005421s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "230" OR id=230 AND con_nid=1 ) LIMIT 1   [ RunTime:0.001296s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <230 and con_nid=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >230 and con_nid=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000286s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=811,`clicktoday`=199,`clickmonth`=265 WHERE ( `id` = 1 ) [ RunTime:0.000408s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001302s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001369s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014135s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000456s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000372s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000377s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001777s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-05-19T19:37:51+08:00 ] ERR: (ThinkException) 无法加载模块:Templates
+[ 2015-05-19T19:37:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.007927s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.005311s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.007486s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000531s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.007070s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000215s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000249s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.006726s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000240s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000252s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000163s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.001231s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000881s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000978s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017623s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000469s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000496s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000364s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002027s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000506s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-05-19T19:37:53+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:37:53+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:37:54+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:37:56+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:38:03+08:00 ] 127.0.0.1 /wangyouxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.007523s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.008210s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.006570s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000586s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "wangyouxiaoshuo" OR `id`='wangyouxiaoshuo' ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 5 ) LIMIT 1   [ RunTime:0.000513s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 5 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000213s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000791s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000855s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013750s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000817s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000630s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000477s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002704s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-05-19T19:38:04+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:38:05+08:00 ] 127.0.0.1 /chuanyuexiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000713s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.007637s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.006854s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.006523s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000514s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "chuanyuexiaoshuo" OR `id`='chuanyuexiaoshuo' ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 4 ) LIMIT 1   [ RunTime:0.000563s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 4 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000461s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000809s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000926s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012137s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000432s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000365s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000272s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001568s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2015-05-19T19:38:05+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:38:06+08:00 ] 127.0.0.1 /dushixiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000917s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.007782s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.005134s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004168s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000317s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "dushixiaoshuo" OR `id`='dushixiaoshuo' ) LIMIT 1   [ RunTime:0.000162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 3 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 3 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000285s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000754s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000813s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011031s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000443s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000344s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000367s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001657s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000434s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2015-05-19T19:38:06+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:38:06+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:38:07+08:00 ] 127.0.0.1 /xiuzhenxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000695s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004448s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.007256s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005862s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000660s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xiuzhenxiaoshuo" OR `id`='xiuzhenxiaoshuo' ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 2 ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 2 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000413s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001298s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001396s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015713s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000682s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000608s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000525s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002729s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-05-19T19:38:07+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:38:08+08:00 ] 127.0.0.1 /xuanhuanxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.008050s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.007849s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005237s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000567s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xuanhuanxiaoshuo" OR `id`='xuanhuanxiaoshuo' ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 1 ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 1 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000256s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000615s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000665s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013560s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000635s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000619s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000394s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000449s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2015-05-19T19:38:08+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:38:08+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:38:09+08:00 ] 127.0.0.1 /xiuzhenxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.006189s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.005908s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.006010s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000469s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xiuzhenxiaoshuo" OR `id`='xiuzhenxiaoshuo' ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 2 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 2 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000213s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000804s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000867s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015499s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000552s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000435s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002045s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000793s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2015-05-19T19:38:09+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:38:10+08:00 ] 127.0.0.1 /dushixiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000751s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.006402s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.007317s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.007604s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000387s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "dushixiaoshuo" OR `id`='dushixiaoshuo' ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 3 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 3 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000276s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000819s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000891s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015897s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001604s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000499s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000464s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003229s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-05-19T19:38:10+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:38:10+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:38:10+08:00 ] 127.0.0.1 /chuanyuexiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.009828s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.014834s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.010135s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000577s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001100s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "chuanyuexiaoshuo" OR `id`='chuanyuexiaoshuo' ) LIMIT 1   [ RunTime:0.000552s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 4 ) LIMIT 1   [ RunTime:0.000518s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 4 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000416s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000988s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021725s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000847s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001612s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001014s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005045s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001213s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2015-05-19T19:38:11+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:38:11+08:00 ] 127.0.0.1 /wangyouxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002218s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.008444s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.006621s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.007947s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000689s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "wangyouxiaoshuo" OR `id`='wangyouxiaoshuo' ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 5 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 5 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000463s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001151s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001268s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023608s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000775s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000730s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000697s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003233s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000804s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2015-05-19T19:38:11+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:38:12+08:00 ] 127.0.0.1 /wangyouxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.012065s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.009841s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.008862s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000652s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "wangyouxiaoshuo" OR `id`='wangyouxiaoshuo' ) LIMIT 1   [ RunTime:0.000837s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 5 ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 5 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000277s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000806s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000863s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037007s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000748s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000750s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000988s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005096s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2015-05-19T19:38:12+08:00 ] 127.0.0.1 /kehuanxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.018579s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.008962s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.009304s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.001092s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001066s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "kehuanxiaoshuo" OR `id`='kehuanxiaoshuo' ) LIMIT 1   [ RunTime:0.001521s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 6 ) LIMIT 1   [ RunTime:0.000700s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 6 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000424s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001211s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001338s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034637s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002274s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001790s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000864s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006417s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001608s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2015-05-19T19:38:12+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:45:04+08:00 ] 127.0.0.1 /kehuanxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005478s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.006849s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.007353s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000383s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "kehuanxiaoshuo" OR `id`='kehuanxiaoshuo' ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 6 ) LIMIT 1   [ RunTime:0.000534s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 6 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000512s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000777s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017903s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000730s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000652s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000529s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002950s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000893s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2015-05-19T19:45:04+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:45:06+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.011988s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.007515s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.008505s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.001317s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.012876s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000281s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000364s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.006377s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.001751s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000602s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000243s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.001667s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001235s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001333s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000948s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003249s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003426s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008956s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2015-05-19T19:45:06+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:45:06+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:45:08+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:45:09+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:46:06+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.009065s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.008333s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.011745s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000638s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.011596s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000301s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000376s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.009506s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000380s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000563s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000433s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.003645s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001968s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002075s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029324s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000816s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000763s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000609s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003276s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000954s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2015-05-19T19:46:06+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T19:46:07+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:46:09+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T19:46:12+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:16:31+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:16:37+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:16:46+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004392s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.005755s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005966s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000374s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.004079s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000162s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000229s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.005355s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000199s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000234s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000305s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.001598s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000774s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000820s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000846s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000530s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000731s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002973s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-05-19T20:16:46+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:16:46+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:16:48+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.007835s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.007025s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.010830s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.001527s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.007085s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000255s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000340s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004989s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000207s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000209s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000122s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.000777s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000621s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015940s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000425s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000395s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000339s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001855s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000757s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2015-05-19T20:16:49+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:19:04+08:00 ] 127.0.0.1 /book/zhenguanxianren/408
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000974s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.006720s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004313s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005175s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000595s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004272s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "408" OR id=408 AND con_nid=2 ) LIMIT 1   [ RunTime:0.001729s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <408 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >408 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000198s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=2590,`today`=19,`clicktoday`=43,`clickmonth`=266 WHERE ( `id` = 2 ) [ RunTime:0.000239s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000669s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000714s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012545s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000427s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000323s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001494s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-05-19T20:19:04+08:00 ] ERR: (ThinkException) 无法加载模块:Templates
+[ 2015-05-19T20:19:05+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:19:05+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:19:13+08:00 ] 127.0.0.1 /book/zhenguanxianren/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005487s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004509s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004261s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000392s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `xs_vol` [ RunTime:0.004216s ]
+SQL: SELECT * FROM `xs_vol` WHERE ( `vol_nid` = 2 )  [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004280s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( con_nid=2 ) ORDER BY id desc limit 9  [ RunTime:0.000342s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( `con_vid` = 2 ) AND ( `con_nid` = 2 )  [ RunTime:0.001749s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000681s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012755s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000470s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000347s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000312s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2015-05-19T20:19:14+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:19:14+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:21:15+08:00 ] 127.0.0.1 /book/zhenguanxianren/284
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000646s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004250s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004725s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004633s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000378s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004430s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "284" OR id=284 AND con_nid=2 ) LIMIT 1   [ RunTime:0.001405s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000400s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <284 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >284 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000356s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=2636,`clicktoday`=89,`clickmonth`=312 WHERE ( `id` = 2 ) [ RunTime:0.000278s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000712s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011108s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000459s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000358s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000283s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001601s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000445s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2015-05-19T20:21:15+08:00 ] ERR: (ThinkException) 无法加载模块:Templates
+[ 2015-05-19T20:21:16+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:21:22+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:21:25+08:00 ] 127.0.0.1 /book/zhenguanxianren/283
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.006205s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004249s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004658s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000301s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004766s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "283" OR id=283 AND con_nid=2 ) LIMIT 1   [ RunTime:0.001358s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000431s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <283 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >283 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000340s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=2675,`clicktoday`=128,`clickmonth`=351 WHERE ( `id` = 2 ) [ RunTime:0.000222s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000671s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012379s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000463s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000356s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001647s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2015-05-19T20:21:26+08:00 ] ERR: (ThinkException) 无法加载模块:Templates
+[ 2015-05-19T20:21:26+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:21:29+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:27:20+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:28:14+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004805s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.005288s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004429s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000424s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.005274s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000228s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000260s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.005329s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000281s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000192s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.000999s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000793s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000884s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013454s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000446s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000323s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000261s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001714s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000597s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-05-19T20:28:14+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:28:14+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:28:18+08:00 ] 127.0.0.1 /xuanhuanxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000607s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005236s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004344s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004663s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xuanhuanxiaoshuo" OR `id`='xuanhuanxiaoshuo' ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 1 ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 1 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000228s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000596s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000641s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010244s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000518s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000450s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000360s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001983s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-05-19T20:28:18+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:28:23+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004813s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004340s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004093s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000374s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.004342s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000211s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000296s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004553s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000231s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000232s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000133s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.000803s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000448s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011731s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000398s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000307s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000255s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001480s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2015-05-19T20:28:23+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:28:24+08:00 ] 127.0.0.1 /xuanhuanxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005588s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.005135s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005306s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000507s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xuanhuanxiaoshuo" OR `id`='xuanhuanxiaoshuo' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 1 ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 1 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000364s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000887s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000962s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014955s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000602s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000501s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000405s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002089s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000542s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2015-05-19T20:28:24+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:28:25+08:00 ] 127.0.0.1 /xiuzhenxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005631s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004295s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004647s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000462s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xiuzhenxiaoshuo" OR `id`='xiuzhenxiaoshuo' ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 2 ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 2 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000236s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000726s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011905s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000418s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000342s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000272s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001533s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000456s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-05-19T20:28:25+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:28:26+08:00 ] 127.0.0.1 /xuanhuanxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000585s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004388s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004609s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004221s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000394s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xuanhuanxiaoshuo" OR `id`='xuanhuanxiaoshuo' ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 1 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 1 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000265s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000641s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016430s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000975s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001010s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001159s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004216s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000914s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2015-05-19T20:28:26+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:28:28+08:00 ] 127.0.0.1 /xiuzhenxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004744s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004353s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004258s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xiuzhenxiaoshuo" OR `id`='xiuzhenxiaoshuo' ) LIMIT 1   [ RunTime:0.000199s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 2 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 2 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000215s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000666s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010721s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000447s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000373s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000281s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2015-05-19T20:28:28+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:28:29+08:00 ] 127.0.0.1 /dushixiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000559s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005180s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004163s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004402s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000561s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "dushixiaoshuo" OR `id`='dushixiaoshuo' ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 3 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 3 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000222s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000539s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011034s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000568s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000343s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000291s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001791s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000483s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2015-05-19T20:28:29+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:28:32+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:28:38+08:00 ] 127.0.0.1 /search/keyword/%E8%B4%9E%E8%A7%82%E9%97%B2%E4%BA%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004552s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004376s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004282s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000402s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelname` LIKE  "%贞观闲人%" OR `novelauthor` LIKE "%贞观闲人%" )  [ RunTime:0.000220s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000688s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000736s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: classinfo D:\www\docs\xs.cn\home\Runtime\Cache\4bf87ee03d1dfe925728a240a7064ed3.php 第 25 行.
+NOTIC: [8] Undefined variable: classinfo D:\www\docs\xs.cn\home\Runtime\Cache\4bf87ee03d1dfe925728a240a7064ed3.php 第 25 行.
+NOTIC: [8] Undefined variable: classinfo D:\www\docs\xs.cn\home\Runtime\Cache\4bf87ee03d1dfe925728a240a7064ed3.php 第 25 行.
+NOTIC: [8] Undefined variable: classinfo D:\www\docs\xs.cn\home\Runtime\Cache\4bf87ee03d1dfe925728a240a7064ed3.php 第 25 行.
+NOTIC: [8] Undefined variable: classinfo D:\www\docs\xs.cn\home\Runtime\Cache\4bf87ee03d1dfe925728a240a7064ed3.php 第 25 行.
+NOTIC: [8] Undefined variable: classinfo D:\www\docs\xs.cn\home\Runtime\Cache\4bf87ee03d1dfe925728a240a7064ed3.php 第 25 行.
+NOTIC: [8] Undefined variable: classinfo D:\www\docs\xs.cn\home\Runtime\Cache\4bf87ee03d1dfe925728a240a7064ed3.php 第 25 行.
+NOTIC: [8] Undefined variable: pageshow D:\www\docs\xs.cn\home\Runtime\Cache\4bf87ee03d1dfe925728a240a7064ed3.php 第 111 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010994s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000443s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000383s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000283s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001603s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000458s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-05-19T20:28:38+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:28:41+08:00 ] 127.0.0.1 /book/zhenguanxianren/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000700s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004450s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004210s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004557s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000406s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `xs_vol` [ RunTime:0.003919s ]
+SQL: SELECT * FROM `xs_vol` WHERE ( `vol_nid` = 2 )  [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004075s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( con_nid=2 ) ORDER BY id desc limit 9  [ RunTime:0.000389s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( `con_vid` = 2 ) AND ( `con_nid` = 2 )  [ RunTime:0.001873s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000710s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000452s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000312s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000265s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000470s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2015-05-19T20:28:42+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:28:46+08:00 ] 127.0.0.1 /book/zhenguanxianren/284
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004451s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.005732s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.006585s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000503s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000763s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.006710s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "284" OR id=284 AND con_nid=2 ) LIMIT 1   [ RunTime:0.001661s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <284 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >284 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000267s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=2705,`clicktoday`=158,`clickmonth`=381 WHERE ( `id` = 2 ) [ RunTime:0.000190s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000655s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012709s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000735s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001056s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002506s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007515s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000929s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2015-05-19T20:28:46+08:00 ] ERR: (ThinkException) 无法加载模块:Templates
+[ 2015-05-19T20:28:47+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:28:54+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:41:53+08:00 ] 127.0.0.1 /book/zhenguanxianren/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000627s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004985s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004433s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005558s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000686s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `xs_vol` [ RunTime:0.010200s ]
+SQL: SELECT * FROM `xs_vol` WHERE ( `vol_nid` = 2 )  [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004844s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( con_nid=2 ) ORDER BY id desc limit 9  [ RunTime:0.000318s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( `con_vid` = 2 ) AND ( `con_nid` = 2 )  [ RunTime:0.001718s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001434s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001527s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015965s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000765s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001184s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000532s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003168s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-05-19T20:41:54+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:41:55+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:42:20+08:00 ] 127.0.0.1 /book/zhenguanxianren/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005363s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004581s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004638s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000453s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `xs_vol` [ RunTime:0.004451s ]
+SQL: SELECT * FROM `xs_vol` WHERE ( `vol_nid` = 2 )  [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004435s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( con_nid=2 ) ORDER BY id desc limit 9  [ RunTime:0.000546s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( `con_vid` = 2 ) AND ( `con_nid` = 2 )  [ RunTime:0.002324s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000691s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012928s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000522s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000363s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000271s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001672s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-05-19T20:42:21+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:42:21+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:43:36+08:00 ] 127.0.0.1 /book/zhenguanxianren/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.008400s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.007256s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.007278s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.001188s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `xs_vol` [ RunTime:0.005768s ]
+SQL: SELECT * FROM `xs_vol` WHERE ( `vol_nid` = 2 )  [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.007716s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( con_nid=2 ) ORDER BY id desc limit 9  [ RunTime:0.000493s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( `con_vid` = 2 ) AND ( `con_nid` = 2 )  [ RunTime:0.003026s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001057s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001201s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022489s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000628s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000430s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000300s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001927s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-05-19T20:43:36+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:43:58+08:00 ] 127.0.0.1 /book/zhenguanxianren/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000592s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005696s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004006s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005230s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000355s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `xs_vol` [ RunTime:0.005217s ]
+SQL: SELECT * FROM `xs_vol` WHERE ( `vol_nid` = 2 )  [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.005777s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( con_nid=2 ) ORDER BY id desc limit 9  [ RunTime:0.000350s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( `con_vid` = 2 ) AND ( `con_nid` = 2 )  [ RunTime:0.002389s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000696s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016175s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000532s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000360s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000273s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001668s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000438s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2015-05-19T20:43:58+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:43:58+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:44:37+08:00 ] 127.0.0.1 /book/zhenguanxianren/299
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000647s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005887s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.006329s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.008668s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000443s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.007141s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "299" OR id=299 AND con_nid=2 ) LIMIT 1   [ RunTime:0.002034s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000596s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <299 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000612s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >299 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000395s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=2754,`clicktoday`=207,`clickmonth`=430 WHERE ( `id` = 2 ) [ RunTime:0.000297s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000732s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000810s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015304s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000379s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000314s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000259s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000503s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-05-19T20:44:37+08:00 ] ERR: (ThinkException) 无法加载模块:Templates
+[ 2015-05-19T20:44:38+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:44:41+08:00 ] 127.0.0.1 /book/zhenguanxianren/300
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000559s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004617s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.010478s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004829s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000368s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.002199s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000865s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.010427s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "300" OR id=300 AND con_nid=2 ) LIMIT 1   [ RunTime:0.004336s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000685s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <300 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000649s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >300 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.001130s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=2797,`clicktoday`=250,`clickmonth`=473 WHERE ( `id` = 2 ) [ RunTime:0.001051s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000992s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001069s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017307s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000443s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000349s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000335s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001626s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000632s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2015-05-19T20:44:42+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:44:43+08:00 ] 127.0.0.1 /book/zhenguanxianren/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000747s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005006s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.003954s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004147s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `xs_vol` [ RunTime:0.004368s ]
+SQL: SELECT * FROM `xs_vol` WHERE ( `vol_nid` = 2 )  [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004015s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( con_nid=2 ) ORDER BY id desc limit 9  [ RunTime:0.000282s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( `con_vid` = 2 ) AND ( `con_nid` = 2 )  [ RunTime:0.001638s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000637s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011406s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000439s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000305s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000213s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001740s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2015-05-19T20:44:43+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:44:45+08:00 ] 127.0.0.1 /book/zhenguanxianren/312
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000594s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002089s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.006728s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.008364s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.006559s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.001656s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000372s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.005706s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "312" OR id=312 AND con_nid=2 ) LIMIT 1   [ RunTime:0.002226s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000546s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <312 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000447s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >312 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000448s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=2820,`clicktoday`=273,`clickmonth`=496 WHERE ( `id` = 2 ) [ RunTime:0.000373s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001252s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021347s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000891s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000756s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000504s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003020s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2015-05-19T20:44:46+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:44:46+08:00 ] 127.0.0.1 /book/zhenguanxianren/313
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004693s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005036s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.003939s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004094s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004163s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "313" OR id=313 AND con_nid=2 ) LIMIT 1   [ RunTime:0.001542s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000363s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <313 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >313 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000201s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=2865,`clicktoday`=318,`clickmonth`=541 WHERE ( `id` = 2 ) [ RunTime:0.000174s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000561s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010352s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000381s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000288s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000215s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001392s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000433s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2015-05-19T20:44:47+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:44:59+08:00 ] 127.0.0.1 /book/zhenguanxianren/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000709s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.007232s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004079s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004202s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000304s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `xs_vol` [ RunTime:0.003885s ]
+SQL: SELECT * FROM `xs_vol` WHERE ( `vol_nid` = 2 )  [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004198s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( con_nid=2 ) ORDER BY id desc limit 9  [ RunTime:0.000304s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( `con_vid` = 2 ) AND ( `con_nid` = 2 )  [ RunTime:0.002014s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000641s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012817s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000496s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000392s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000272s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001696s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-05-19T20:44:59+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:45:03+08:00 ] 127.0.0.1 /book/zhenguanxianren/369
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004504s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004038s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004793s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000628s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004115s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "369" OR id=369 AND con_nid=2 ) LIMIT 1   [ RunTime:0.001759s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000400s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <369 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >369 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000216s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=2905,`clicktoday`=358,`clickmonth`=581 WHERE ( `id` = 2 ) [ RunTime:0.000231s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000707s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000751s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011506s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000444s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000347s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000547s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001940s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2015-05-19T20:45:04+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:46:05+08:00 ] 127.0.0.1 /book/zhenguanxianren/369
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004710s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.007046s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005472s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000375s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004450s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "369" OR id=369 AND con_nid=2 ) LIMIT 1   [ RunTime:0.001666s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000413s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <369 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >369 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000254s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=2940,`clicktoday`=393,`clickmonth`=616 WHERE ( `id` = 2 ) [ RunTime:0.000271s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000668s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012109s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000453s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000354s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000284s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000621s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-05-19T20:46:05+08:00 ] ERR: (ThinkException) 无法加载模块:Templates
+[ 2015-05-19T20:46:05+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:46:05+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:46:36+08:00 ] 127.0.0.1 /book/zhenguanxianren/369?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000675s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004962s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004695s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004692s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000372s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004152s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "369" OR id=369 AND con_nid=2 ) LIMIT 1   [ RunTime:0.001744s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000518s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <369 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000335s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >369 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000242s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=2980,`clicktoday`=433,`clickmonth`=656 WHERE ( `id` = 2 ) [ RunTime:0.000240s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000679s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010801s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000440s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000333s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000287s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001579s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-05-19T20:46:36+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:46:37+08:00 ] 127.0.0.1 /book/zhenguanxianren/369?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004640s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004466s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004211s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004614s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "369" OR id=369 AND con_nid=2 ) LIMIT 1   [ RunTime:0.002061s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000395s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <369 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >369 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000220s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=3029,`clicktoday`=482,`clickmonth`=705 WHERE ( `id` = 2 ) [ RunTime:0.000201s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000710s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000758s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013007s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000575s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000486s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000379s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002151s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2015-05-19T20:46:37+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:46:37+08:00 ] 127.0.0.1 /book/zhenguanxianren/369?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000654s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004236s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.006061s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005444s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000321s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004029s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "369" OR id=369 AND con_nid=2 ) LIMIT 1   [ RunTime:0.003135s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000542s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <369 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.001556s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >369 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.001618s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=3055,`clicktoday`=508,`clickmonth`=731 WHERE ( `id` = 2 ) [ RunTime:0.000226s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000699s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000744s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016463s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000469s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000352s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000267s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001577s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-05-19T20:46:37+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:46:38+08:00 ] 127.0.0.1 /book/zhenguanxianren/369?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004485s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004020s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.003992s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000320s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004500s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "369" OR id=369 AND con_nid=2 ) LIMIT 1   [ RunTime:0.002182s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000612s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <369 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >369 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000214s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=3082,`clicktoday`=535,`clickmonth`=758 WHERE ( `id` = 2 ) [ RunTime:0.000205s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000629s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000673s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010556s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000484s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000369s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2015-05-19T20:46:38+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:46:39+08:00 ] 127.0.0.1 /book/zhenguanxianren/369?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001648s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001817s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004797s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.005598s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005388s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000502s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004192s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "369" OR id=369 AND con_nid=2 ) LIMIT 1   [ RunTime:0.001643s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000371s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <369 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >369 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000238s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=3118,`clicktoday`=571,`clickmonth`=794 WHERE ( `id` = 2 ) [ RunTime:0.000203s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000687s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011428s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000456s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000366s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-05-19T20:46:39+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:46:40+08:00 ] 127.0.0.1 /book/zhenguanxianren/369?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004373s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004414s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004107s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000407s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "zhenguanxianren" OR `id`='zhenguanxianren' ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004045s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "369" OR id=369 AND con_nid=2 ) LIMIT 1   [ RunTime:0.001638s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000487s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <369 and con_nid=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >369 and con_nid=2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000244s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=3150,`clicktoday`=603,`clickmonth`=826 WHERE ( `id` = 2 ) [ RunTime:0.000218s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000587s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010058s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000411s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000297s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000230s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001468s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2015-05-19T20:46:40+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:47:16+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:47:25+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:47:33+08:00 ] 127.0.0.1 /dushixiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000636s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004309s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004235s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004502s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000315s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "dushixiaoshuo" OR `id`='dushixiaoshuo' ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 3 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 3 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000242s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000669s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010380s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000398s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000338s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000265s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001473s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000427s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-05-19T20:47:33+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T20:47:33+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:47:35+08:00 ] 127.0.0.1 /xuanhuanxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004305s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.003931s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004583s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000514s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xuanhuanxiaoshuo" OR `id`='xuanhuanxiaoshuo' ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 1 ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 1 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000275s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000686s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010360s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000446s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000428s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000389s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001826s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000542s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2015-05-19T20:47:36+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:47:36+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005344s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.005706s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005613s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000492s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.005767s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000253s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000352s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.005488s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000253s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000282s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000197s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.000972s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000636s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013109s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000506s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000446s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000374s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000635s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2015-05-19T20:47:37+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:47:44+08:00 ] 127.0.0.1 /xuanhuanxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001063s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004255s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004228s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004012s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000290s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xuanhuanxiaoshuo" OR `id`='xuanhuanxiaoshuo' ) LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 1 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 1 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000209s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000599s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010575s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000423s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000353s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000268s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001530s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-05-19T20:47:44+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:47:44+08:00 ] 127.0.0.1 /xiuzhenxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004414s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004182s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004437s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000408s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xiuzhenxiaoshuo" OR `id`='xiuzhenxiaoshuo' ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 2 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 2 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000211s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000582s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010043s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000351s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000326s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000282s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001488s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-05-19T20:47:44+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:47:45+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004450s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.003997s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004537s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.004006s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000193s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000217s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004143s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000265s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000179s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.000844s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012421s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000456s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000634s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000383s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002052s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2015-05-19T20:47:45+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:47:47+08:00 ] 127.0.0.1 /book/kuilingyan/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004288s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004196s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004303s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "kuilingyan" OR `id`='kuilingyan' ) LIMIT 1   [ RunTime:0.000172s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `xs_vol` [ RunTime:0.004537s ]
+SQL: SELECT * FROM `xs_vol` WHERE ( `vol_nid` = 1 )  [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.003961s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( con_nid=1 ) ORDER BY id desc limit 9  [ RunTime:0.000915s ]
+SQL: SELECT `id`,`con_name`,`con_namepy` FROM `xs_content` WHERE ( `con_vid` = 1 ) AND ( `con_nid` = 1 )  [ RunTime:0.002085s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000690s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012716s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000593s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000367s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000280s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001759s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-05-19T20:47:47+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:47:50+08:00 ] 127.0.0.1 /book/kuilingyan/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000764s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005651s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.005040s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005605s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000431s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novelpy` LIKE  "kuilingyan" OR `id`='kuilingyan' ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.005245s ]
+SQL: SELECT * FROM `xs_content` WHERE ( con_namepy LIKE "1" OR id=1 AND con_nid=1 ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT `id`,`novelname`,`novelpy` FROM `xs_novel` ORDER BY rand() limit 15  [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: tunovel D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `xs_content` WHERE ( id <1 and con_nid=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `xs_content` WHERE ( id >1 and con_nid=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.000298s ]
+SQL: UPDATE `xs_novel` SET `clicksum`=860,`clicktoday`=248,`clickmonth`=314 WHERE ( `id` = 1 ) [ RunTime:0.000278s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000753s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000858s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012198s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000455s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000367s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000328s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001686s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000511s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-05-19T20:47:50+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T20:47:55+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004439s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004045s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004381s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000362s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.004267s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000210s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000251s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004258s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000240s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000222s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000153s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.000933s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000637s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012309s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000407s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000574s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000342s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002156s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2015-05-19T20:47:55+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T21:14:14+08:00 ] 127.0.0.1 /dushixiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004379s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004340s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004159s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000370s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "dushixiaoshuo" OR `id`='dushixiaoshuo' ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 3 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 3 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000249s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000667s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010609s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000459s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000347s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001622s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2015-05-19T21:14:15+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T21:14:17+08:00 ] 127.0.0.1 /xiuzhenxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004249s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.003836s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004192s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000319s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xiuzhenxiaoshuo" OR `id`='xiuzhenxiaoshuo' ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 2 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 2 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000159s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 111 行.
+NOTIC: [8] Undefined variable: tui D:\www\docs\xs.cn\home\Lib\Action\IndexAction.class.php 第 119 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000584s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010325s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000384s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000335s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000264s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001487s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000435s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2015-05-19T21:14:17+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T21:25:00+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005023s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004330s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004144s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000353s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.006349s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000376s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.006267s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000223s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000243s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000158s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.000859s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000589s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000634s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013525s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000543s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000619s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000384s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002118s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000482s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-05-19T21:25:00+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T22:43:32+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.007770s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.006349s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.006958s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000528s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.006812s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000266s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000292s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.006962s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000282s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000192s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.001492s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000636s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012882s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000450s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000384s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000289s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001688s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000482s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-05-19T22:43:33+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T22:43:34+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004621s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004902s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004203s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000426s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.004185s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000178s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000213s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004044s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000209s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000238s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000163s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.000792s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000596s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012677s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000401s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000384s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000263s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2015-05-19T22:43:34+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T22:43:35+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T22:44:11+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T22:44:29+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T22:44:39+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004301s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.003886s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004431s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000396s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.004517s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000175s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000251s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004240s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000182s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000201s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000121s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.000842s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000735s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012487s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000465s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000476s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000391s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001971s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000748s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-05-19T22:44:39+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T22:44:39+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T22:46:19+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.005010s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004414s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005548s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000449s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.005196s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000332s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000336s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.005366s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000246s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000301s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000259s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.000952s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000630s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012681s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000412s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000329s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000272s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001499s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000434s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-05-19T22:46:19+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T22:46:19+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T22:46:22+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T22:46:31+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T22:46:32+08:00 ] 127.0.0.1 /xuanhuanxiaoshuo/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004655s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004376s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.004164s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `xs_class` WHERE ( `classpy` LIKE  "xuanhuanxiaoshuo" OR `id`='xuanhuanxiaoshuo' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xs_novel` WHERE ( `novel_cid` = 1 ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT * FROM `xs_novel` WHERE ( `novel_cid` = 1 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000223s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000571s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010301s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000401s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000401s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000299s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000509s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2015-05-19T22:46:32+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T22:46:32+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T22:46:34+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `xs_site` [ RunTime:0.004303s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `xs_class` [ RunTime:0.004040s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `xs_novel` [ RunTime:0.005199s ]
+SQL: SELECT `novelname`,`novelauthor` FROM `xs_novel` ORDER BY rand() limit 5  [ RunTime:0.000405s ]
+SQL: SELECT * FROM `xs_site` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `xs_links` [ RunTime:0.004471s ]
+SQL: SELECT * FROM `xs_links` ORDER BY linkweight desc  [ RunTime:0.000204s ]
+SQL: SELECT * FROM `xs_novel` ORDER BY tuitime desc limit 6  [ RunTime:0.000234s ]
+SQL: SELECT `id`,`novel_cid`,`novelname`,`novelpy`,`novelauthor`,`update_time` FROM `xs_novel` ORDER BY update_time desc limit 15  [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `xs_content` [ RunTime:0.004019s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000541s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 2 ) ORDER BY id desc limit 1  [ RunTime:0.000282s ]
+SQL: SELECT * FROM `xs_class`  [ RunTime:0.000177s ]
+SQL: SELECT * FROM `xs_content` WHERE ( `con_nid` = 1 ) ORDER BY id desc limit 1  [ RunTime:0.000880s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000656s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012210s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000411s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000356s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000278s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000445s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2015-05-19T22:46:34+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T22:46:34+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2015-05-19T22:46:37+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T22:48:58+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T22:57:19+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2015-05-19T22:57:19+08:00 ] ERR: (ThinkException) 无法加载模块:Public
