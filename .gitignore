@@ -1,6 +1,4 @@
-/nbproject/private/
-Html
-/home/Runtime
-Runtime
-nbproject
-admin/Runtime/*
+/nbproject/*
+/home/Html/*
+/home/Runtime/*
+/admin/Runtime/*
