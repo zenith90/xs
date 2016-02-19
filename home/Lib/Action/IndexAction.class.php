@@ -252,7 +252,7 @@ class IndexAction extends CommonAction {
 				$n->save($click);
 				
 				
-				$this->display('content:chapter');
+				$this->display('Content:chapter');
 			}else{		
 				//小说章节目录
 				//小说章节目录
@@ -308,7 +308,7 @@ class IndexAction extends CommonAction {
 				
 				$this->assign('chapters',$chapters);
 				
-				$this->display('content:vol');
+				$this->display('Content:vol');
 			}
 		}else{
 			$this->error('错误的访问！');
