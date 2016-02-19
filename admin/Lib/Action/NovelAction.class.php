@@ -11,7 +11,7 @@
 			
 			//所有小说
 			$N=D('Novel');
-			import('ORG.UTIL.Page');
+			import('ORG.Util.Page');
 			if(isset($_GET['search']) and $_GET['search']=='sub'){
 				$this->assign('pagename','关于 "'.$_GET['key'].'" 的搜索结果');
 				$dest='novelname LIKE \'%'.$_GET['key'].'%\''.' OR novelauthor LIKE \'%'.$_GET['key'].'%\'';

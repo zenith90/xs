@@ -6,7 +6,7 @@
 			
 			
 			$c=M('Links');
-			import('ORG.UTIL.Page');
+			import('ORG.Util.Page');
 			//如果是搜索的
 			
 			if(isset($_GET['search'])){

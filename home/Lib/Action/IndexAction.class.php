@@ -95,7 +95,7 @@ class IndexAction extends CommonAction {
 			$classinfo=$C->where($where)->find();
 			if(is_array($classinfo)){
 				$n=M('Novel');
-				import('ORG.UTIL.Newpage');
+				import('ORG.Util.Newpage');
 				$this->assign('classinfo',$classinfo);
 				
 				$novel['novel_cid']=$classinfo['id'];

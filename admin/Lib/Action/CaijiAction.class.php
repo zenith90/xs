@@ -6,7 +6,7 @@
 			
 			$cj=M('Caiji');
 			$count=$cj->count();
-			import('ORG.UTIL.Page');
+			import('ORG.Util.Page');
 			
 			$page=new Page($count,10);
 			$pageshow=$page->show();

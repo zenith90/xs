@@ -13,7 +13,7 @@
 			
 			//所有内容
 			$C=D('Content');
-			import('ORG.UTIL.Page');
+			import('ORG.Util.Page');
 			
 			$cont['con_nid']=$_GET['id'];
 			$count=$C->where($cont)->count();
@@ -41,7 +41,7 @@
 			
 			$this->assign('checkclass',' active');
 			$C=D('Content');
-			import('ORG.UTIL.Page');
+			import('ORG.Util.Page');
 			$N=M('Novel');
 			if(isset($_GET['search']) and $_GET['search']=='sub'){
 				$this->assign('pagename','关于 "'.$_GET['keyword'].'" 的搜索结果');

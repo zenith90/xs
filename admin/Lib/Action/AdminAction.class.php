@@ -7,7 +7,7 @@
 			$this->assign('checkclass','');
 			
 			$C=D('Content');
-			import('ORG.UTIL.Page');
+			import('ORG.Util.Page');
 			$N=M('Novel');
 			
 			$count=$C->count();
